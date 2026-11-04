@@ -1,0 +1,10 @@
+# Packages and dist outputs
+node_modules
+dist
+
+# ML data
+data/*
+
+# .env and .git files
+.env.*
+.git

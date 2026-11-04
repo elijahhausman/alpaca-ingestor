@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./dist",
+
+    // Environment settings
+    "module": "nodenext",
+    "target": "esnext",
+    "types": ["node"],
+    "lib": ["esnext"],
+
+    // Code outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Other settings
+    "strict": true,
+    "jsx": "react-jsx",
+    "isolatedModules": true,
+    "exactOptionalPropertyTypes": true,
+    "rewriteRelativeImportExtensions": true,
+    "noUncheckedSideEffectImports": true,
+    "noUncheckedIndexedAccess": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["prisma", "scripts", "src"]
+}
